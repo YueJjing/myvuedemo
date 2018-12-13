@@ -1,0 +1,21 @@
+#app{  width: 1200px;  min-width: 1200px; font-size: 16px;  color: #333;overflow: hidden;}
+.left{  width: 220px;  margin-right: 20px;}
+.class_wrap{width: 100%;background-color: #fff;margin-bottom: 20px}
+.class_wrap h3{height:40px;line-height:40px;padding:0 16px;font-size:16px;color:#fff;background-color: #4FC08D}
+.class_wrap h6{height:40px;line-height:40px;padding:0 16px;font-size:16px;font-weight: 700;margin-top: 6px;}
+.class_module li{height: 38px;line-height: 38px;padding: 0 20px;font-size: 14px;color: #333}
+.news_module li{padding:0 16px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.hot{width: 28px;  height: 18px;  line-height: 18px;  text-align: center;color: red;display: inline-block;vertical-align: middle}
+.right{  width: 960px;  }
+.pro_wrap{margin-top: 20px;overflow: hidden;}
+.pro_pub{width: 470px; padding:20px;float: left;margin-bottom:16px;background-color: #fff;box-sizing: border-box;-webkit-box-sizing: border-box;margin-right: 20px;}
+.pro_pub:nth-child(2n){margin-right: 0}
+.pro_main{padding-left:  120px;}
+.pro_bg_1 .pro_main{background: url("../background/1.png") no-repeat 0 15px;}
+.pro_bg_2 .pro_main{background: url("../background/2.png") no-repeat 0 15px;}
+.pro_bg_3 .pro_main{background: url("../background/4.png") no-repeat 0 15px;}
+.pro_bg_4 .pro_main{background: url("../background/3.png") no-repeat 0 15px;}
+.pro_pub h5{height:40px;line-height:40px;font-size: 16px;color: #333;font-weight: 700;}
+.pro_pub .describe{height:38px;line-height:38px;font-size: 14px;}
+.btn{height:40px;line-height:40px;margin-top:10px;padding: 0 30px;cursor:pointer;border:0;background-color: #4FC08D;color: #fff}
+.right{  width: 960px;  height: 100%;}
