@@ -139,7 +139,15 @@
     color: #fff;
     cursor: pointer;
   }
-  li.activePage a{
-    color: red;
-  }
+.pagestion li a{
+  width: 26px;
+  line-height: 26px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+li.activePage a{
+  background-color: #4FC08D;
+}
 </style>

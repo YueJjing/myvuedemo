@@ -2,8 +2,11 @@
   <div @click="resetComponent">
     <!--头部-->
     <div class="header" >
-      <div class="warp">
-        <router-link to="/"><img src="../../assets/logo.png" alt=""></router-link>
+      <div class="m">
+        <router-link to="/">
+          <!--<img src="../../assets/logo.png" alt="">-->
+        <i class="el-icon-loading" style="line-height:100px;color: #efc70d;font-size: 70px;margin-left: 10px;"></i>
+        </router-link>
         <ul class="ul_h fr nav-list">
           <li v-if="username != ''">{{ username }}</li>
           <li v-if="username != ''">|</li>
